@@ -1,0 +1,18 @@
+# รับค่าน้ำหนักจากผู้ใช้ (กิโลกรัม)
+weight = float(input("Enter your weight (kg): "))
+
+# รับค่าส่วนสูงจากผู้ใช้ (เซนติเมตร)
+height_cm = float(input("Enter your height (cm): "))
+
+# แปลงส่วนสูงจากเซนติเมตรเป็นเมตร
+height_m = height_cm / 100
+
+# คำนวณค่า BMI
+bmi = weight / (height_m ** 2)
+
+# แสดงผลลัพธ์ BMI
+print(f"BMI = {bmi:.2f}")print("HI THAI")
+a = 2
+b = 3
+c = a+b
+print(c)
